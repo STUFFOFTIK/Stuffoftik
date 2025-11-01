@@ -1,68 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Ethan Carroway - Gameplay Programmer</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body { font-family: Arial; max-width: 800px; margin: auto; padding: 20px; line-height: 1.6; }
-h1, h2 { color: #2b5dff; }
-section { margin-bottom: 30px; }
-a { color: #2b5dff; text-decoration: none; }
-a:hover { text-decoration: underline; }
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>STUFFOFTIK — Gameplay Programmer</title>
+  <style>
+    :root { --accent:#2b5dff; --bg:#0f1115; --card:#0f1720; --text:#d9e3ff; }
+    body { background: linear-gradient(180deg,#071021 0%, #07101b 100%); color:var(--text); font-family: Inter, Arial, sans-serif; margin:0; padding:40px; }
+    .container { max-width:1000px; margin:0 auto; }
+    header { display:flex; align-items:center; gap:20px; margin-bottom:18px; }
+    h1 { margin:0; font-size:34px; letter-spacing:0.5px; color:var(--accent); }
+    p.lead { margin:6px 0 0; color:#bfcffb; }
+    .card { background: rgba(255,255,255,0.02); padding:22px; border-radius:12px; margin-bottom:18px; box-shadow: 0 6px 20px rgba(8,10,15,0.6); }
+    h2 { color:#f0f7ff; margin-top:0; }
+    ul { margin:8px 0 0 20px; }
+    a { color:var(--accent); text-decoration:none; }
+    .meta { font-size:14px; color:#9fb0ff; }
+    .links p { margin:6px 0; }
+    footer { margin-top:18px; color:#9fb0ff; font-size:13px; }
+    .big { font-weight:700; color:#fff; }
+    .project { margin-bottom:10px; }
+  </style>
 </head>
-
 <body>
-<h1>Ethan Carroway</h1>
-<p><strong>Gameplay Programmer & Game Designer</strong><br>
-Toronto, Canada<br>
-📧 giorgigogishvili24@gmail.com<br>
-📞 +1 437-830-1551
-</p>
+  <div class="container">
+    <header>
+      <div>
+        <h1>STUFFOFTIK</h1>
+        <p class="lead">Gameplay Programmer, Technical Designer &amp; 3D Modeler</p>
+        <p class="meta">Founder — Stuff's Games • Toronto, Canada</p>
+      </div>
+    </header>
 
-<hr>
+    <section class="card">
+      <h2>About Me</h2>
+      <p>Lead Roblox developer with <strong>6+ years</strong> scripting and building AAA-quality multiplayer experiences. Founder and lead developer of <strong>Stuff's Games</strong>, working on large-scale titles with custom gameplay systems, combat frameworks, and advanced networking.</p>
+      <p>Previously contributed to major Roblox projects and collaborated with high-tier developers and studios. Experienced in gameplay architecture, secure systems, UI frameworks, and stylized 3D asset creation. Skilled in <span class="big">Luau (Roblox Lua), Python, and C#</span>.</p>
+      <p>Currently developing multiple ambitious projects featuring custom toolchains, ability systems, and immersive gameplay loops.</p>
+    </section>
 
-<section>
-<h2>About Me</h2>
-<p>Gameplay programmer focused on multiplayer systems, AI behavior, UI scripting, and scalable game systems. Experienced in Roblox Lua, Python tools, and basic Unity/C#.</p>
-</section>
+    <section class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>Luau / Roblox Lua — client/server, RemoteEvents, DataStores</li>
+        <li>Python — tools, automation, network utilities</li>
+        <li>C# — Unity scripting & tooling</li>
+        <li>Multiplayer systems, AI behaviors, combat frameworks</li>
+        <li>3D modeling & asset pipeline for stylized games</li>
+        <li>Tooling, debugging systems, and anti-exploit practices</li>
+      </ul>
+    </section>
 
-<section>
-<h2>Skills</h2>
-<ul>
-<li>Roblox Lua (Client/Server, RemoteEvents, DataStores)</li>
-<li>Python (network tools, GUI apps)</li>
-<li>Basic Unity / C#</li>
-<li>Gameplay systems & AI</li>
-<li>UI systems & effects</li>
-<li>Multiplayer logic</li>
-</ul>
-</section>
+    <section class="card">
+      <h2>Highlight Projects</h2>
 
-<section>
-<h2>Projects</h2>
+      <div class="project">
+        <p class="big">Skarged — Dark Fantasy Multiplayer RPG</p>
+        <p>In development — lead programmer & designer. PS1-inspired low-poly art, custom combat & spell systems, dynamic weather, and large open areas designed for multiplayer.</p>
+      </div>
 
-<p><strong>Skarged — Dark Fantasy Multiplayer RPG</strong><br>
-Custom combat, PS1 aesthetic, spell abilities, weather systems</p>
+      <div class="project">
+        <p class="big">Grow a Bird — Farm & Bird Raising Game</p>
+        <p>Roblox project — plot claiming, item placement systems, shop restock mechanics, and datastore-backed economy.</p>
+      </div>
 
-<p><strong>Grow a Bird — Farm & Bird Raising Game</strong><br>
-Plot claiming, item placement, shop restock system, DataStores</p>
+      <div class="project">
+        <p class="big">Days In A Maze — Maze-Runner Survival</p>
+        <p>Round system, team assignment, environmental events, and polished player UI flows.</p>
+      </div>
 
-<p><strong>Days In A Maze — Maze-Runner Survival</strong><br>
-Round system, team assignment, UI alerts, environment events</p>
+      <div class="project">
+        <p class="big">Network Scanner Tool (PC)</p>
+        <p>Python + Tkinter GUI for device discovery, IP lookup, and MAC vendor detection. Developer-focused UI for safe network testing and analysis.</p>
+      </div>
 
-<p><strong>Network Scanner Tool</strong><br>
-Python Tkinter GUI, IP & MAC Vendor scan, fake hacking mode</p>
-</section>
+    </section>
 
-<section>
-<h2>Links</h2>
-<p>📌 Roblox Portfolio: <a href="#">Add link</a></p>
-<p>📽️ YouTube Devlogs: <a href="#">Add link</a></p>
-<p>💾 GitHub: <a href="#">Add link</a></p>
-</section>
+    <section class="card links">
+      <h2>Links</h2>
+      <p>Roblox profile: <a href="https://www.roblox.com/users/2028483735/profile" target="_blank">https://www.roblox.com/users/2028483735/profile</a></p>
+      <p>GitHub: <a href="#">Add link</a></p>
+      <p>YouTube / Demos: <a href="#">Add link</a></p>
+    </section>
 
-<hr>
-<p>© 2025 — Ethan Carroway | Gameplay Programmer</p>
+    <section class="card">
+      <h2>Contact</h2>
+      <p><strong>Primary contact:</strong> Discord — <strong>@STUFFOFTIK</strong></p>
+      <p class="meta">Email: giorgigogishvili24@gmail.com • Phone: +1 437-830-1551</p>
+      <p>If you want a quick reply, message me on Discord (I check DMs frequently). Open to full-time roles, collaborations, and contract work.</p>
+    </section>
+
+    <footer>
+      © 2025 — STUFFOFTIK • Founder, Stuff's Games
+    </footer>
+  </div>
 </body>
 </html>
